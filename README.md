@@ -1,47 +1,167 @@
-<h1>Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I'm Prasanth Kumar</h1>
+<html lang="en">
 
-<p><Prasanth kumar> is a passionate DevOps Engineer from India, working on Cloud and DevOps Projects as Intern.</p>
-<h1 align="center"> Hi there! </h1>
-<p align="center">I'm <strong>Prasanth Kumar</strong>, a passionate <strong>DevOps Engineer</strong> from India. Welcome to my GitHub profile! 🚀</p>
-<img align="right" height="150rem" alt="GIF" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/200w.webp?cid=ecf05e47yrznhyd4w1cnwbe3hlilpmls3c0mrsymhdzmzp5z&rid=200w.webp" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Code</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
 
-<h3 align="center"> About Me 🌟</h3>
-<p align="center">I'm an enthusiast in automating things, scripting, and finding efficient solutions to complex problems. My goal is to make the world of technology more accessible and streamlined for everyone.</p>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Prasanth Kumar</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-works">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Hi, I'm Prasanth Kumar</h1>
+        <p>Associate Software Engineer</p>
+      </div>
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+         
+          <p>
+            I am a highly motivated and enthusiastic professional with a strong passion for AWS DevOps. With a background in computer science and engineering, I am eager to embark on a career in the field of cloud computing and DevOps, leveraging my technical skills and knowledge to contribute to innovative solutions and continuous improvement in software development and deployment processes.
+          </p>
+          <div class="work-arrow">
+            <p>
+              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>Linux/Unix</span>
+                </div>
+                <div class="progress-line"><span class="Linux/Unix" style="width: 97%;"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>AWS Management Console</span>
+                  </div>
+                  <div class="progress-line"><span class="AWS Management Console" style="width: 95%;" ></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>Git</span>
+                    </div>
+                    <div class="progress-line"><span class="Git" style="width: 97%;"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>Kubernetes</span>
+                      </div>
+                      <div class="progress-line"><span class="Kubernetes"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>Terraform</span>
+                        </div>
+                        <div class="progress-line"><span class="Terraform"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="portfolio-content container">
+        <div class="proj-1">
+        
+          <div class="proj1-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Efficient Log Management</h2>
+            <p>This Bash script monitors a specified directory for large files (greater than 2GB), calculates disk usage, and maintains a summary log. It also performs log rotation to clean up old log files. You can schedule this script to run as a cron job.</p>
+            <button><a href="https://github.com/dev-ops-aws/sonix_batch3/blob/prasanth/linux/linux-proj/project-2/project2" target="blank">View source <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+           
+          </div>
+        </div>
 
-<h3 align="center"> Tech Stack 🛠️</h3>
-<p align="center">Here are some of the technologies I work with:</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/-Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure">
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins">
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/-Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible">
-  <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/-Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus">
-  <img src="https://img.shields.io/badge/-GitLab-FFCA28?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab">
-</p>
+        <div class="proj-2">
+          
+  <div class="proj2-details">
+    <i class="fab fa-html5"></i>
+    <i class="fab fa-css3-alt"></i>
+    
+           
+             <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+             <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
 
-<h3 align="center"> Learning 📚</h3>
-<p align="center">I'm always eager to learn and stay updated with the latest trends in the world of DevOps and Cloud Computing.</p>
+        </div>
+        
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p class="mail">
+          Get in touch with me <i class="fas fa-arrow-right"></i> Prasanthkumarakkili@gmail.com
+        </p>
+        <p class="links">Or find me on:</p>
+        <a href="https://www.linkedin.com/in/prasanth-kumar-1a3593289/" target="blank"><i class="fab fa-linkedin">
+            Linkedin</i></a>
+     
+        <a href="https://github.com/PrasanthKumar0" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://hashnode.com/@PrasanthA" target="blank"><i class="fab fa-dev"></i> Hashnode </a>
+       
+       
+      </div>
+    </div>
+  </div>
+ 
+</body>
 
-<h3 align="center"> Connect with Me 📫</h3>
-<p align="center">
-  <a href="https://www.linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:prasanthkumarakkili@gmail.com ">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/Shwetang550/count.svg" />
-</p>
-<div style="text-align: center;">
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="30%">
-</div>
-
-
-<p align="center">Feel free to reach out if you have any questions or just want to connect. Let's make the world more automated and efficient together! 🤝</p>
+</html>
